@@ -11,7 +11,6 @@ const App: React.FC = () => {
     <GestureHandlerRootView style={{ flex: 1 }}>
       <NavigationContainer>
      <StatusBar barStyle="light-content" backgroundColor="#121212" />
-      
         <AppNavigator />
         
       </NavigationContainer>
