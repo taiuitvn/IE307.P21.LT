@@ -6,9 +6,7 @@ export default function LoginScreen({ navigation }) {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // Logic xác thực thực tế sẽ ở đây
     if (username && password) {
-      // Điều hướng đến màn hình Home và truyền username qua params
       navigation.replace('Home', { username: username });
     } else {
       alert('Vui lòng nhập đầy đủ thông tin.');

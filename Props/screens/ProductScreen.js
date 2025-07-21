@@ -2,11 +2,9 @@ import React from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 
 export default function HomeScreen({ route, navigation }) {
-  // Nhận username từ params được truyền qua
   const { username } = route.params;
 
   const handleLogout = () => {
-    // Quay lại màn hình Login
     navigation.replace('Login');
   };
 
